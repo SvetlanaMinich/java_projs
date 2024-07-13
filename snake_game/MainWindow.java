@@ -1,4 +1,4 @@
-import javax.swing.JFrame;
+import javax.swing.*;
 
 public class MainWindow extends JFrame
 {
@@ -6,10 +6,10 @@ public class MainWindow extends JFrame
     {
         setTitle("Snake");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(320,345);
+        setSize(320,350);
         setLocation(400,400);
-        setVisible(true);
         add(new GameField());
+        setVisible(true);
     }
     public static void main(String[] args) 
     {
